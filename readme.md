@@ -3,4 +3,4 @@
 
 ---- 
 
-![screenshot-of-the-project](screenshot.png)
+![screenshot-of-the-project](./screenshot.png)
