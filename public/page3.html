@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+ <title>Page 3</title>
+ <style>
+   .container{
+     max-width:790px; 
+     height: auto;
+     padding:1rem;
+     background:rgb(255, 255, 255); 
+    display:flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    border-radius:2rem; 
+    box-shadow:10px 30px 360px rgb(158, 156, 156),inset 0px 0px 10px rgb(177, 175, 175); 
+    margin:auto; 
+    margin-top:10rem; 
+    /* border:none; 
+    border-top:10px dotted rgb(226, 225, 225) */
+   } 
+
+   h1{
+     font-size:6rem;
+     font-family:cursive;
+   }
+    button{
+     font-size:3rem; 
+     width:15%; 
+     height: 10%; 
+     border:none; 
+     box-shadow:0 0 30px rgb(192, 192, 192); 
+     border-radius:60px; 
+     outline:none; 
+     cursor: pointer;
+
+    } 
+
+    a{
+      text-decoration: none; 
+    } 
+
+    i{
+      color:rgb(0, 0, 0); 
+      background:transparent;
+    } 
+
+    section{ 
+     max-width:700px; 
+     height: auto; 
+     background:rgb(255, 255, 255);
+      margin:auto; 
+      text-align:center; 
+      margin-top:-1rem; 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-evenly;
+     border-radius:1px; 
+     box-shadow:0 -10px 10px rgba(128, 128, 128, 0.26);
+    } 
+    section a{
+      padding-left:1rem; 
+      font-size:3rem; 
+      font-family:cursive; 
+      color:rgba(0, 0, 0, 0.178); 
+    } 
+
+    @media only screen and (max-width:600px){
+      .container{
+        flex-direction:column; 
+        padding: 3rem; 
+        margin-top:0;
+      } 
+      h1{
+       order:-1; 
+       font-size:4rem;
+      
+      } 
+
+      button{
+       width: 100%;
+       margin-bottom:2rem;
+      }
+    }
+ </style>
+</head>
+<body>
+   <div class="container">
+    <button onclick="window.history.go(-1)">
+    
+      <i class="fas fa-arrow-left"></i>
+     
+     </button>
+     <h1>History</h1>
+     <button onclick="window.history.go(1)">
+     
+      <i class="fas fa-arrow-right"></i>
+     
+     </button>
+   </div> 
+
+   
+  <section> 
+   <a href="./page1.html">Link 1</a>
+   <a href="./page2.html">Link 2</a>
+   <a href="./page3.html"> <mark>Link 3</mark></a>
+</section> 
+
+ 
+</body>
+</html>
